@@ -19,9 +19,9 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # Dependencies
-  s.add_dependency 'typhoeus', ['~> 0.2']
-  s.add_dependency 'nokogiri', ['~> 1.4']
-  s.add_dependency 'sax-machine', ['~> 0.1']
+  s.add_dependency 'typhoeus'
+  s.add_dependency 'nokogiri'
+  s.add_dependency 'sax-machine'
 
   # Developmnet Dependencies
   s.add_development_dependency 'rake', ['~> 10.0']
